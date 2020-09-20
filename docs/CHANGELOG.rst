@@ -2,6 +2,16 @@
 Changelog
 =========
 
+`1.1.0 <https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.0.2...v1.1.0>`_ (2020-09-20)
+--------------------------------------------------------------------------------------------------------------------
+
+Features
+^^^^^^^^
+
+
+* **clean:** add windows support (\ `8cb4b14 <https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/8cb4b14b138a0197ac6003be13b9d12eb32ab09b>`_\ )
+* **windows:** basic windows support (\ `337dadc <https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/337dadc342d5f4b78380aed0df2819e5921d9249>`_\ )
+
 `1.0.2 <https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.0.1...v1.0.2>`_ (2020-07-28)
 --------------------------------------------------------------------------------------------------------------------
 

@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.1](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.1.0...v1.1.1) (2020-12-16)
+
+
+### Continuous Integration
+
+* **gitlab-ci:** use GitLab CI as Travis CI replacement ([7704fbd](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/7704fbd7ad1b505c50f693c8b77959f089e9136e))
+* **pre-commit:** add to formula [skip ci] ([77f93d3](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/77f93d3a0d76b9361501ff584ebbf612cbb03b64))
+* **pre-commit:** enable/disable `rstcheck` as relevant [skip ci] ([dcffe70](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/dcffe7035f901f03880cddd2a841b3921420958b))
+* **pre-commit:** finalise `rstcheck` configuration [skip ci] ([1a1bb50](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/1a1bb5045c32a0c708e37c67e46844e991c10687))
+
+
+### Documentation
+
+* **readme:** fix `rstcheck` violation [skip ci] ([399ca00](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/399ca00966417744dca5387d2e3ac0ad8c43b565)), closes [/travis-ci.org/github/myii/jetbrains-rubymine-formula/builds/731607186#L259](https://github.com//travis-ci.org/github/myii/jetbrains-rubymine-formula/builds/731607186/issues/L259)
+
 # [1.1.0](https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.0.2...v1.1.0) (2020-09-20)
 
 

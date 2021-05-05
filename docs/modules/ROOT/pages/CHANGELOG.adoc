@@ -1,0 +1,101 @@
+= Changelog
+
+:sectnums!:
+
+== link:++https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.1.0...v1.1.1++[1.1.1^] (2020-12-16)
+
+=== Continuous Integration
+
+* *gitlab-ci:* use GitLab CI as Travis CI replacement
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/7704fbd7ad1b505c50f693c8b77959f089e9136e[7704fbd^])
+* *pre-commit:* add to formula [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/77f93d3a0d76b9361501ff584ebbf612cbb03b64[77f93d3^])
+* *pre-commit:* enable/disable `rstcheck` as relevant [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/dcffe7035f901f03880cddd2a841b3921420958b[dcffe70^])
+* *pre-commit:* finalise `rstcheck` configuration [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/1a1bb5045c32a0c708e37c67e46844e991c10687[1a1bb50^])
+
+=== Documentation
+
+* *readme:* fix `rstcheck` violation [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/399ca00966417744dca5387d2e3ac0ad8c43b565[399ca00^]),
+closes
+https://github.com//travis-ci.org/github/myii/jetbrains-rubymine-formula/builds/731607186/issues/L259[/travis-ci.org/github/myii/jetbrains-rubymine-formula/builds/731607186#L259^]
+
+== link:++https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.0.2...v1.1.0++[1.1.0^] (2020-09-20)
+
+=== Features
+
+* *clean:* add windows support
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/8cb4b14b138a0197ac6003be13b9d12eb32ab09b[8cb4b14^])
+* *windows:* basic windows support
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/337dadc342d5f4b78380aed0df2819e5921d9249[337dadc^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.0.1...v1.0.2++[1.0.2^] (2020-07-28)
+
+=== Bug Fixes
+
+* *cmd.run:* wrap url in quotes (zsh)
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/1641a5291586c4d694facec61553a8aa37f57045[1641a52^])
+* *macos:* do not create shortcut file
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/7d637e93bd9dc4cb4ace917a41b1c556c8a0b0ac[7d637e9^])
+* *macos:* do not create shortcut file
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/33451f021b3895fd0f44fe7e5e12471acac771dc[33451f0^])
+
+=== Code Refactoring
+
+* *jetbrains:* align all jetbrains formulas
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/682e97269fe3e288489751fb226168f26e15b119[682e972^])
+
+=== Continuous Integration
+
+* *kitchen:* use `saltimages` Docker Hub where available [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/8c0405d984979a653dc5fa85ccd559844f99ba37[8c0405d^])
+
+=== Documentation
+
+* *readme:* minor update
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/8fc972bb3a1a3147f82628ec1be93122cabbab33[8fc972b^])
+
+=== Styles
+
+* *libtofs.jinja:* use Black-inspired Jinja formatting [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/94c8e844b0d176681cde05431422d4238f0d1d57[94c8e84^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v1.0.0...v1.0.1++[1.0.1^] (2020-06-15)
+
+=== Bug Fixes
+
+* *edition:* better edition jinja code
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/ff739a56ede34a150b443561dc9b0ed6eea7b81b[ff739a5^])
+
+=== Continuous Integration
+
+* *kitchen+travis:* add new platforms [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/23c22e34fd24b658ff039bf49267943d7392f03d[23c22e3^])
+* *kitchen+travis:* adjust matrix to add `3000.3` [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/41f92cd1e751811ce700339f82ab58a5ce7e1d56[41f92cd^])
+* *travis:* add notifications => zulip [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/fb191620f024c8f5187e2355c8a3789eb2ff7e6d[fb19162^])
+
+=== Documentation
+
+* *readme:* improve formatting
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/49671503f6581fb62c1caca04b2b56b6bcc06db8[4967150^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-rubymine-formula/compare/v0.1.2...v1.0.0++[1.0.0^] (2020-05-12)
+
+=== Features
+
+* *formula:* align to template formula; add ci
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/0d7de6c6de3696305b3a2968d6fddbe91191a93d[0d7de6c^])
+* *formula:* align to template formula; add ci
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/21b13061ffe0ca8d602f7b8782e64004e8a7e56f[21b1306^])
+* *semantic-release:* standardise for this formula
+(https://github.com/saltstack-formulas/jetbrains-rubymine-formula/commit/f7ecc2012e55f5cbc1dfc3a6a082d2d43f420638[f7ecc20^])
+
+=== BREAKING CHANGES
+
+* *formula:* Major refactor of formula to bring it in alignment with the
+template-formula. As with all substantial changes, please ensure your
+existing configurations work in the ways you expect from this formula.
